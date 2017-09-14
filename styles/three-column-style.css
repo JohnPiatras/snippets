@@ -1,0 +1,21 @@
+
+#navigation {
+	float: left;
+	width:198px;
+	border: 1px solid #aaaaaa;
+}
+
+#navigation2 {
+	float: right;
+	width: 198px;
+	border: 1px solid #aaaaaa;
+}
+
+#content {
+	margin:0 200px;
+}
+
+#footer {
+	clear:both;
+	border:1px solid #aaaaaa;
+}
