@@ -1,0 +1,35 @@
+<DOCTYPE! html>
+<html>
+<head>
+</head>
+
+<body>
+<div style="background-color:#ffcccc;border:1px solid black;">
+    <style>
+      .mybox {
+        border: 20px solid blue;
+        background-color: #ccccff;
+        border-radius: 20px;
+        width:60px;
+        height: 60px;
+		rotation-point:50% 50%;
+      }
+      .mybox:hover {
+		animation-name: wobble;
+		animation-duration: 0.5s;
+		animation-direction: alternate;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+      }
+	  @keyframes wobble {
+	    0% {transform:rotate(-5deg);}
+		50% {transform:rotate(0deg);}
+		100% {transform:rotate(5deg);}
+		/*from {background-color: red;}*/
+		/*to {background-color: yellow;}*/
+	  }
+    </style>
+    <div class="mybox"></div>
+  </div>
+</body>
+</html>
