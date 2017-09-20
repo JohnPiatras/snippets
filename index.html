@@ -1,19 +1,34 @@
 <DOCTYPE! html>
 <html>
 <head>
-</head>
 	<title>Snippets</title>
 	<link rel="stylesheet" href="styles/index-style.css">
+</head>
 <body>
 	<h1>Snippets</h1>
-	<div id="centercontent">
+	<p>Initially in this page the boxes did not appear in neat rows.
+		This was because when <em>display:inline-block;</em> is set the boxes
+		aligned vertically by their <em>veritcal-align</em> property which
+		defaults to <em>baseline</em>. In this case the baseline is the baseline
+		of its last line box in normal flow.<p>
+	<p>See <a href="https://stackoverflow.com/questions/17334052/why-is-content-of-the-inline-block-affects-its-position-in-the-container">here</a> for some discussion.
+	<div class="centercontent">
 		
-			<div class="mybox"><a href="animated-boxes.html">Animated Boxes</a></div>
-			<div class="mybox"><a href="before_after_content.html">Pseudo elements - before and after content</a></div>
-			<div class="mybox"><a href="dynamic-pseudo-class.html">Dynamic Pseudo Class</a></div>
-			<div class="mybox"><a href="pseudo-elements.html">Pseudo Elements</a></div>
-			<div class="mybox"><a href="three-column-layout.html">Three Column Layout</a></div>
-			<div class="mybox"><a href="two-column-layout.html">Two Column Layout</a></div>
+			<a class="mybox" href="animated-boxes.html">Animated Boxes</a>
+			<a class="mybox" href="before_after_content.html">Pseudo elements - before and after content</a>
+			<a class="mybox" href="dynamic-pseudo-class.html">Dynamic Pseudo Class</a>
+			<a class="mybox" href="pseudo-elements.html">Pseudo Elements</a>
+			<a class="mybox" href="three-column-layout.html">Three Column Layout</a>
+			<a class="mybox" href="two-column-layout.html">Two Column Layout</a>
+	</div>
+	<p>The boxes below do not have the vertical-align property set</p>
+	<div class="centercontent">
+			<a class="mybox2" href="animated-boxes.html">Animated Boxes</a>
+			<a class="mybox2" href="before_after_content.html">Pseudo elements - before and after content</a>
+			<a class="mybox2" href="dynamic-pseudo-class.html">Dynamic Pseudo Class</a>
+			<a class="mybox2" href="pseudo-elements.html">Pseudo Elements</a>
+			<a class="mybox2" href="three-column-layout.html">Three Column Layout</a>
+			<a class="mybox2" href="two-column-layout.html">Two Column Layout</a>
 	</div>
 
 </body>
