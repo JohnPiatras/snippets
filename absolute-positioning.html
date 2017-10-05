@@ -1,0 +1,55 @@
+<DOCTYPE! html>
+<html>
+<head>
+</head>
+	<title>Absolute Positioning</title>
+	<link rel="stylesheet" href="styles/absolute-positioning.css">
+<body>
+
+    <div class="content">
+      <p>
+        This container is positioned relatively.
+      </p>
+      <p>
+        Relative positioning means I can still use margin:auto to center it, but
+        then offset the box from the default position in the browser, in this case
+        the offset is 100px from the top of the page.
+      </p>
+      <div class="child">
+        <p>
+          This container is a child of the red div and has the folowing css style applied:
+        </p>
+        <code>
+          width:200px;
+          height:200px;
+          position:absolute;
+          top:100px;
+          right: 10px;
+          border:1px solid green;
+        </code>
+      </div>
+
+
+      <div class="body">
+        <div class="head">
+          <div class="l_eye"></div>
+          <div class="r_eye"></div>
+        </div>
+        <div class="l_arm"></div>
+        <div class="r_arm"></div>
+        <div class="l_leg"></div>
+        <div class="r_leg"></div>
+        <div class="caption">
+          <p>
+            This stickman is constructed using divs positioned absolutely relative to the stick.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+</body>
+</html>
